@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row m-0 justify-content-between\" [ngClass]=\"{'header': !navFixed,'header-sticky':navFixed}\">\n    <div class=\"ml-5 my-auto\">\n        <img src=\"../assets/imgs/logo.png\" height=\"60px\" alt=\"\">\n    </div>\n    <div id=\"dat09navbar\" class=\"my-auto\" [ngClass]=\"{'open': expand}\">\n        <!-- <div class=\"btn-toolbar\" role=\"toolbar\" aria-label=\"Toolbar with button groups\"> -->\n        <div class=\"btn-group-lg mr-2\" role=\"group\" aria-label=\"First group\">\n            <button type=\"button\" class=\"btn btn-link\">Giới thiệu </button>\n            <button type=\"button\" class=\"btn btn-link\">Sản phẩm</button>\n            <button type=\"button\" class=\"btn btn-link\">Tin tức</button>\n            <button type=\"button\" class=\"btn btn-link\">Tuyển dụng</button>\n            <button type=\"button\" class=\"btn btn-link\">Liên hệ</button>\n        </div>\n        <!-- </div> -->\n    </div>\n    <div class=\"mr-5 my-auto\">\n        <div id=\"nav-icon1\" [ngClass]=\"{'open': expand}\" (click)=\"expand=!expand\">\n            <span></span>\n            <span></span>\n            <span></span>\n        </div>\n    </div>\n</div>\n<router-outlet></router-outlet>\n<app-footer></app-footer>\n<div class=\"fb-customerchat\"\n     page_id=\"963096820403454\">\n</div>"
+module.exports = "<div class=\"row m-0 justify-content-between\" [ngClass]=\"{'header': !navFixed,'header-sticky':navFixed}\">\n    <div class=\"ml-5 my-auto\">\n        <img src=\"./../assets/imgs/logo.png\" height=\"60px\" alt=\"\">\n    </div>\n    <div id=\"dat09navbar\" class=\"my-auto\" [ngClass]=\"{'open': expand}\">\n        <!-- <div class=\"btn-toolbar\" role=\"toolbar\" aria-label=\"Toolbar with button groups\"> -->\n        <div class=\"btn-group-lg mr-2\" role=\"group\" aria-label=\"First group\">\n            <button type=\"button\" class=\"btn btn-link\">Giới thiệu </button>\n            <button type=\"button\" class=\"btn btn-link\">Sản phẩm</button>\n            <button type=\"button\" class=\"btn btn-link\">Tin tức</button>\n            <button type=\"button\" class=\"btn btn-link\">Tuyển dụng</button>\n            <button type=\"button\" class=\"btn btn-link\">Liên hệ</button>\n        </div>\n        <!-- </div> -->\n    </div>\n    <div class=\"mr-5 my-auto\">\n        <div id=\"nav-icon1\" [ngClass]=\"{'open': expand}\" (click)=\"expand=!expand\">\n            <span></span>\n            <span></span>\n            <span></span>\n        </div>\n    </div>\n</div>\n<router-outlet></router-outlet>\n<app-footer></app-footer>\n<div class=\"fb-customerchat\"\n     page_id=\"963096820403454\">\n</div>"
 
 /***/ }),
 
@@ -311,35 +311,35 @@ class Fakedata {
 }
 Fakedata.slides = [
     {
-        img: `../../assets/imgs/slide1.jpg`,
+        img: `assets/imgs/slide1.jpg`,
         h1: 'SmartEOS',
         h4: ' - Enterpise Operating System',
         h3: 'Hệ thống thông tin điều hành doanh nghiệp',
         listh5: ['Quản lý công việc', 'Quản lý sổ công văn', 'Quản lý kho hồ sơ, tài liệu'],
-        icon: `../../assets/imgs/smarteos.png`,
+        icon: `assets/imgs/smarteos.png`,
         link: 'http://smarteos.harmonyes.com.vn/',
     },
     {
-        img: `../../assets/imgs/slide2.jpg`,
+        img: `assets/imgs/slide2.jpg`,
         h1: 'SmartBuild Enterprise',
         h4: '',
         h3: 'Giải pháp ứng dụng công nghệ thông tin cho nhà thầu xây dựng',
         listh5: ['Quản lý công việc', 'Quản lý sổ công văn', 'Quản lý kho hồ sơ, tài liệu'],
-        icon: `../../assets/imgs/smarteos.png`,
+        icon: `assets/imgs/smarteos.png`,
         link: 'http://smartbuildenterprise.harmonyes.com.vn/',
     },
     {
-        img: `../../assets/imgs/slide3.jpg`,
+        img: `assets/imgs/slide3.jpg`,
         h1: 'ERP',
         h4: '',
         h3: '',
         listh5: ['', '', ''],
-        icon: `../../assets/imgs/smarteos.png`,
+        icon: `assets/imgs/smarteos.png`,
         link: ''
     }
 ];
 Fakedata.slogan = {
-    img: `../../assets/imgs/slide4.jpg`,
+    img: `assets/imgs/slide4.jpg`,
     h1: '"Together Digital Transformmation With You"',
     author: 'Vu Thanh Cong',
     position: ' - Director General',
@@ -348,12 +348,12 @@ Fakedata.slogan = {
     email: 'info@harmonyes.com.vn'
 };
 Fakedata.doitacs = [
-    { doitac: 'phúc hưng thịnh', image: `../../assets/imgs/1.jpg`, tenduan: 'dự án demo' },
-    { doitac: 'bảo quân', image: `../../assets/imgs/1.jpg`, tenduan: 'dự án demo' },
-    { doitac: 'pacific', image: `../../assets/imgs/1.jpg`, tenduan: 'dự án demo' },
-    { doitac: 'harmony', image: `../../assets/imgs/1.jpg`, tenduan: 'dự án demo' },
-    { doitac: 'tedi-reco', image: `../../assets/imgs/1.jpg`, tenduan: 'dự án demo' },
-    { doitac: 'trung chính ', image: `../../assets/imgs/1.jpg`, tenduan: 'dự án demo' },
+    { doitac: 'phúc hưng thịnh', image: `assets/imgs/1.jpg`, tenduan: 'dự án demo' },
+    { doitac: 'bảo quân', image: `assets/imgs/1.jpg`, tenduan: 'dự án demo' },
+    { doitac: 'pacific', image: `assets/imgs/1.jpg`, tenduan: 'dự án demo' },
+    { doitac: 'harmony', image: `assets/imgs/1.jpg`, tenduan: 'dự án demo' },
+    { doitac: 'tedi-reco', image: `assets/imgs/1.jpg`, tenduan: 'dự án demo' },
+    { doitac: 'trung chính ', image: `assets/imgs/1.jpg`, tenduan: 'dự án demo' },
 ];
 Fakedata.tuyendung = [
     {
